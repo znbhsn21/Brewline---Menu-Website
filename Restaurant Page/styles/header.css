@@ -1,0 +1,53 @@
+.header {
+    background-color: #3e1b01;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    border: none;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+}
+
+.name {
+    color: rgb(255, 225, 225);
+    font-family: "Merriweather";
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.options {
+    color: rgb(255, 225, 225);
+    font-family: "Merriweather";
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: font-size 0.15s;
+}
+
+.options:hover {
+    text-decoration: underline;
+    font-size: 22px;
+}
+

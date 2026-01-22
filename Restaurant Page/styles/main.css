@@ -1,0 +1,95 @@
+.main {
+    background-color: blanchedalmond;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    overflow-y: auto; 
+    overflow-x: hidden;
+    padding-bottom: 100px;
+}
+
+.category-title {
+    color: #3e1b01;
+    font-size: 35px;
+    font-family: "MerriWeather";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    font-weight: bolder;
+    word-spacing: 5px;
+}
+
+.menu-items-hot {
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 5px;
+    color: rgb(80, 40, 40);
+    margin-top: 20px;
+}
+
+.item {
+    margin-right: 10px;
+    margin-left: 10px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: rgb(241, 215, 175);
+    background-color: bisque;
+    transition: background-color 0.15s, border-width 0.15s;
+}
+
+.item:hover {
+    background-color: rgb(247, 213, 172);
+    border-width: 5px;
+    cursor: pointer;
+}
+
+.item-name {
+    font-size: 20px;
+    font-family: Merriweather;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.item-name:hover {
+    text-decoration: underline;
+}
+
+.item-price {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Merriweather;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.item-desc {
+    font-size: 16px;
+    font-family: Merriweather;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    line-height: 25px;
+}
+
+.image {
+    display: block;
+}
+
+.item img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    margin-bottom: 10px;
+}
